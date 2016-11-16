@@ -1,0 +1,44 @@
+.tagInput {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.tagInput label {
+	float: left;
+}
+
+.tagInput input {
+	width: calc(100% - 4px);
+	height: 30px;
+	padding: 0;
+}
+
+.tagDiv {
+	background-color: rgba(125, 255, 255);
+	text-align: center;
+}
+
+.tagDiv li {
+	border: 2px solid;
+	border-radius: 25px;
+	width: auto;
+	margin: auto;
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+
+.beforeInput {
+	padding: 10px;
+}
+
+.inputSubmit {
+	width: 50%;
+	height: 50px;
+	background-color: rgba(50, 125, 217);
+}
+
+.errorMessage {
+	float: right;
+}

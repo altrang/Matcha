@@ -1,0 +1,15 @@
+
+
+.searchResult {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+.searchInput{
+	display: flex;
+	width: 98%;
+	justify-content: space-around;
+	margin: 20px auto;
+	background-color: rgba(196, 196, 196, 0.56);
+}

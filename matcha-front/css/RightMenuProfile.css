@@ -1,0 +1,26 @@
+.RightMenuProfile {
+	width: 60%;
+	float: right;
+	text-align: center;
+	height: auto;
+	border: 2px solid;
+}
+
+.suggestions {
+	text-transform: capitalize;
+	margin-top: 50px;
+}
+
+.suggestions p {
+	color: black;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+.RightMenuProfile span{
+	text-align: center;
+	color: black;
+	margin-top: 50px;
+	font-size: 20px;
+
+}

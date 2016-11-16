@@ -1,0 +1,118 @@
+.leftMenuPhoto {
+	width: 150px;
+	height: 150px;
+	margin: 5px auto;
+}
+
+.leftMenuName {
+	text-align: center;
+	color: black;
+}
+
+.leftMenuNoPhoto {
+	width: 150px;
+	height: 150px;
+	margin: 5px auto;
+}
+.leftMenu {
+	text-align: center;
+}
+
+.leftStart {
+	height: auto;
+	margin-top: 50px;
+}
+
+.leftMenuButton {
+	position: relative;
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 2px solid black;
+	text-align: center;
+	margin: auto;
+}
+.leftMenuButton:hover{
+	color: black;
+	border: 2px solid rgb(179, 224, 255);
+	background-color: rgb(179, 224, 255);
+	border-radius: 25px;
+}
+
+.imageDisplay {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.photoDisplay {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: auto;
+}
+
+@media screen and (max-width: 1080px) {
+	.leftMenu {
+		width: 30vw;
+		height: auto;
+		margin: 0;
+	}
+	.firstSpan {
+		font-size: 2vw;
+		background-color: red;
+		width: 20vw;
+	}
+	.images img {
+		width: 10vw;
+		height: 10vw;
+	}
+	.leftMenu img {
+		width: 8vw;
+		height: 8vw;
+	}
+	.leftMenuNoPhoto {
+		width: 10vw;
+		height: 10vw;
+	}
+
+	.leftMenuPhoto {
+		width: 10vw;
+		height: 10vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.leftStart {
+		width: 50vw;
+		height: auto;
+		float: left;
+	}
+
+	.userProfileCenter {
+		width: 60vw;
+		height: auto;
+		padding: 15px;
+
+	}
+
+	.RightMenuProfile {
+		display: none;
+	}
+}
+
+/*.LikeButton {
+	background: transparent;
+	width: 50%;
+	height: 100px;
+	border: 0;
+}*/
+
+.LikeButton img {
+	width: 45px;
+	height: 45px;
+}

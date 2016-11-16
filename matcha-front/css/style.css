@@ -1,0 +1,529 @@
+.login {
+	width: 500px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login h1 {
+	text-align: center;
+}
+.textinp:focus {
+	background-color: lightblue;
+}
+.textinp {
+    background-color: blue;
+}
+
+.error {
+	color: blue;
+}
+
+.createUser {
+	width: 500px;
+}
+
+.redBorder {
+	border: 3px solid red;
+}
+
+.greenBorder {
+	border: 3px solid green;
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  opacity: 0.5;
+
+}
+
+.olivier {
+	opacity: 1;
+	font-size: 50px;
+	z-index: 100;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+/*.button {
+	display: inline-block;
+	opacity: 1;
+	vertical-align: middle;
+}*/
+
+.myButton {
+	width: 200px;
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.9);;
+	text-decoration: none;
+	padding: 20px;
+	margin: 10px;
+	position: relative;
+}
+
+.myButton1 {
+	animation-name: example;
+	animation-duration: 3s;
+}
+
+.myButton2 {
+	animation-name: example1;
+	animation-duration: 3s;
+}
+
+@keyframes example {
+    0%   {left:500px; top:0px; opacity: 0.1}
+    100% {left:0px; top:0px; opacity: 1}
+}
+
+@keyframes example1 {
+    0%   {left:-500px; top:0px; opacity: 0.1}
+    100% {left:0px; top:0px; opacity: 1}
+}
+
+
+.myButton:hover {
+	width: 20px;
+}
+
+.textInput {
+	display: flex;
+	width: 500px;
+}
+
+.editProfile1 {
+	width: 300px;
+	height: 300px;
+}
+
+.editProfile1 input {
+	padding: 10px;
+	margin: 10px;
+}
+
+.sexelector {
+	display: flex;
+}
+
+.logError {
+	height: 5px;
+	text-align: center;
+	width: 100%;
+}
+
+.forgotPassword{
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+.HeaderButton {
+	position: relative;
+	top: 10px;
+	width: 100px;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 5px;
+	vertical-align: middle;
+	top: 25%;
+	text-align: center;
+}
+.HeaderButton1:hover,
+.HeaderButton:hover {
+	color: rgb(119,158,203);
+	border: 2px solid rgb(119,158,203);
+	padding: 5px;
+}
+
+.HeaderButton1 {
+	position: relative;
+	top: 10px;
+	width: 100px;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 5px;
+	vertical-align: middle;
+	top: 20%;
+	float: right;
+	text-align: center;
+}
+.EditProfile {
+	width: 50%;
+	height: auto;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+.geosuggest__input,
+.geosuggest_wrapper {
+	width: 100%;
+}
+
+.label.isChecked {
+	background-color: white;
+	text-align: center;
+	border-radius: 25px;
+}
+.label {
+	text-align: center;
+}
+.imageProfile {
+	width: 120px;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 5px;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+}
+
+.upload {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+}
+
+.imagesDisplays {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.selector {
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(5, 5, 5, 0.29);
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	border-radius: 20px;;
+	padding: 0;
+	width: 90%;
+	margin: auto;
+}
+
+.RadioInput {
+	height: 70px;
+	width: 99%;
+	border-radius: 25px;
+}
+
+.RadioInput label {
+	width: 100px;
+}
+
+.RadioInput input {
+	display: none;
+}
+
+.maleLabel {
+	float: left;
+}
+
+.otherLabel {
+	float: right;
+}
+
+.locateButton {
+	width: 100%;
+}
+
+.geolocButton {
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.fileButton {
+	width: 100%;
+	margin-top: 10px;
+	color: white;
+	background-color: white;
+}
+
+.upload {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+}
+.submitButton {
+}
+
+.geosuggest {
+  font-size: 18px;
+  font-size: 1rem;
+  position: relative;
+  width: 100%;
+  margin: 1em auto;
+  text-align: left;
+}
+.geosuggest__input {
+	width: calc(100% - 4px);
+	border: 2px solid transparent;
+	box-shadow: 0 0 1px #3d464d;
+	padding: .5em 1em;
+	-webkit-transition: border 0.2s, box-shadow 0.2s;
+	transition: border 0.2s, box-shadow 0.2s;
+}
+.geosuggest__input:focus {
+  border-color: #267dc0;
+  box-shadow: 0 0 0 transparent;
+}
+.geosuggest__suggests {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 25em;
+  padding: 0;
+  margin-top: -1px;
+  background: #fff;
+  border: 2px solid #267dc0;
+  border-top-width: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  list-style: none;
+  z-index: 5;
+  -webkit-transition: max-height 0.2s, border 0.2s;
+          transition: max-height 0.2s, border 0.2s;
+}
+.geosuggest__suggests--hidden {
+  max-height: 0;
+  overflow: hidden;
+  border-width: 0;
+}
+
+/**
+ * A geosuggest item
+ */
+.geosuggest__item {
+  font-size: 18px;
+  font-size: 1rem;
+  padding: .5em .65em;
+  cursor: pointer;
+}
+.geosuggest__item:hover,
+.geosuggest__item:focus {
+  background: #f5f5f5;
+}
+.geosuggest__item--active {
+  background: #267dc0;
+  color: #fff;
+}
+.geosuggest__item--active:hover,
+.geosuggest__item--active:focus {
+  background: #ccc;
+}
+
+.labelGeo {
+	float: left;
+	width: 30%;
+	margin-left: 12px;
+	margin-top: 4px;
+}
+
+.home {
+	width: 100%;
+	height: 100%;
+}
+
+.footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+}
+
+.GeoLocTout {
+	width: 100%;
+	margin: auto;
+}
+
+.fileButton input{
+	color: black;
+	background-color: green;
+}
+
+.notification {
+	margin: auto;
+	height: 15px;
+	width: 25%;
+	text-align: center;
+	color: white;
+}
+.notifPage {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(5, 5, 5, 0.29);
+	margin: auto;
+}
+.notificationDisplay {
+	left: 50%;
+	top: 50%;
+	font-size: 17px;
+	width: 100%;
+	line-height: 25px;
+	text-align: center;
+	list-style: none;
+}
+
+.submitButton2 {
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 15px;
+	position: relative;
+	border-radius: 15px;
+	width: 100px;
+	height: 20px;
+	color: white;
+
+}
+
+.submitButton2:hover {
+	border: 2px solid rgb(119,158,203);
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+
+.chatOther {
+	color: red;
+	margin-left: auto;
+	border-radius: 5px;
+	width: 50%;
+	height: auto;
+}
+
+.chatWindow {
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+.chatButton input {
+	margin: auto;
+}
+.chatButton {
+	margin: auto;
+	width: 30%;
+	justify-content: center;
+	display: flex;
+}
+
+.chatMe {
+	color: blue;
+	margin-right: auto;
+	border-radius: 5px;
+	width: 50%;
+	height: auto;
+}
+
+.chatss {
+	background: #EFEFBB; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EFEFBB , #D4D3DD); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EFEFBB , #D4D3DD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: auto;
+	width: 40%;
+	height: auto;
+	border: 2px solid;
+}
+
+.messageList {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.searchInput > span {
+	margin: 0 10px;
+}
+
+.checkEmail {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+
+.checkEmail1 {
+	width: 500px;
+	text-align: center;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.resetPassword {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+
+.resetPassword1 {
+	width: 500px;
+	text-align: center;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.userSearch {
+	text-align: center;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: rgba(75, 75, 75, 0.3);
+	padding: 30px;
+	margin: 20px;
+}
+
+.userSearch:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.userSearch p {
+	color: black;
+	margin: auto;
+}
+
+@media screen and (max-width: 1080px) {
+	.login {
+		width: 90vw;
+		font-size: 5vw;
+	}
+	.checkEmail {
+		width: 90vw;
+	}
+	.checkEmail1 {
+		width: 90vw;
+	}
+	.loginButton {
+		width: 40vw;
+	}
+}
